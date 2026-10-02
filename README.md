@@ -15,6 +15,8 @@ Open-source tooling and fixed-scope services for repositories using Claude Code,
 
 The free tooling is intentionally bounded: it inventories common AI-agent/MCP/configuration surfaces and does not execute target repository code.
 
+**Case study:** https://ossabellator.github.io/claude-code-mcp-hardening/case-study-agent-ops.html — provider design, Stripe commerce, automated fulfillment, GitHub automation, privacy boundaries, indexing and verification.
+
 ### Fixed-scope paid options
 
 - **A$39** — read-only evidence-backed audit of one public GitHub repository
