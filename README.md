@@ -14,6 +14,7 @@ The public tools are deliberately bounded: read-only or static evidence first, e
 - **Repository security checklist:** https://ossabellator.github.io/claude-code-mcp-hardening/ai-coding-agent-repository-security-checklist.html
 - **Open-source toolkit:** https://github.com/OssaBellator/claude-code-mcp-hardening
 - **GitHub Action:** `uses: OssaBellator/claude-code-mcp-hardening@v1`
+- **Agent Skill:** `npx skills add OssaBellator/claude-code-mcp-hardening --skill auditing-ai-agent-repositories`
 
 ### Fixed-scope help
 
