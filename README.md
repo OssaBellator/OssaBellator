@@ -2,36 +2,39 @@
 
 Building practical tooling for bounded, recoverable AI-agent workflows.
 
-## Claude Code, MCP & AI-agent workflow audit
+## AI coding agent & MCP repository hardening
 
-I maintain an open-source audit toolkit for Claude Code, MCP integrations, Agent Skills, hooks, scheduled automations, and other AI-agent workflows.
+I maintain an open-source hardening toolkit for repositories using Claude Code, Codex, Cursor, GitHub Actions, MCP servers, hooks, skills, or other agentic development workflows.
 
-The methodology is read-first: map configuration and permissions, identify consequential actions, test failure and recovery paths where safe, verify side effects, and leave an operator handoff. Public business examples are synthetic/open-source methodology, not customer deployments.
+The public tools are deliberately bounded: read-only or static evidence first, explicit authority boundaries, no target-code execution unless a workflow specifically requires it, and clear recovery/verification steps.
 
-### Start with the evidence
+### Start free
+
+- **Free browser audit:** https://ossabellator.github.io/claude-code-mcp-hardening/free-audit.html
+- **Repository security checklist:** https://ossabellator.github.io/claude-code-mcp-hardening/ai-coding-agent-repository-security-checklist.html
+- **Open-source toolkit:** https://github.com/OssaBellator/claude-code-mcp-hardening
+- **GitHub Action:** `uses: OssaBellator/claude-code-mcp-hardening@v1`
+
+### Fixed-scope help
+
+| Option | Scope |
+| --- | --- |
+| **A$39 AUD** | Human-reviewed hardening audit for one public GitHub repository |
+| **A$79 AUD** | 60-day public-repository watch: baseline, day 30, day 60 |
+| **A$149 AUD** | Bounded hands-on audit + implementation/hardening for one workspace |
+
+- **A$39 audit:** https://ossabellator.github.io/claude-code-mcp-hardening/repo-audit.html
+- **A$79 watch:** https://ossabellator.github.io/claude-code-mcp-hardening/watch.html
+- **A$149 implementation:** https://ossabellator.github.io/claude-code-mcp-hardening/
+
+The paid work is intentionally narrow. It is not penetration testing, incident response, unlimited support, a security certification, or a guarantee that every vulnerability will be found.
+
+## Related workflow-audit toolkit
+
+The earlier workflow-audit project focuses more broadly on MCP integrations, Agent Skills, scheduled automations, side-effect safety, idempotency, partial-failure recovery, and operator handoff:
 
 - **Toolkit:** https://github.com/OssaBellator/claude-mcp-workflow-audit
 - **Technical proof:** https://ossabellator.github.io/claude-mcp-workflow-audit/proof.html
 - **Agent Skill:** `npx skills add OssaBellator/claude-mcp-workflow-audit --skill auditing-mcp-workflows`
-- **Claude marketplace:** `/plugin marketplace add OssaBellator/claude-mcp-workflow-audit`
-
-The public toolkit includes a deterministic scanner, workflow contracts, regression tests, and synthetic appointment, trades-operations, and retail-pricing references.
-
-### Hands-on audit — A$149
-
-For an existing Claude Code, MCP, or AI-agent workspace, the fixed-scope service focuses on:
-
-- configuration and permission boundaries
-- risky or ambiguous external writes
-- idempotency and duplicate-side-effect prevention
-- missing/conflicting-data handling
-- partial-failure recovery and verification
-- maintainable tests and operator handoff
-
-**Service page:** https://ossabellator.github.io/claude-mcp-workflow-audit/
-
-**Checkout:** https://buy.stripe.com/9B600d9Mocei2RV8c104801
-
-Implementation beyond the fixed audit is quoted separately after discovery.
 
 Do not send passwords, API keys, private keys, recovery phrases, production customer data, or other secrets through checkout fields, issues, or proposal messages.
