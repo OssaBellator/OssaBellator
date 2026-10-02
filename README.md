@@ -2,22 +2,27 @@
 
 Building practical tooling for bounded, recoverable AI-assisted development.
 
-## Claude Code & MCP Workflow Audit + Hardening
+## Claude Code, MCP & AI-agent workspace hardening
 
-Fixed-scope **A$149 operational audit + hardening** for developers and teams using Claude Code, MCP servers, skills, hooks, scheduled tasks, or AI-assisted repository workflows.
+Open-source tooling and fixed-scope services for repositories using Claude Code, Codex, Cursor, MCP servers, hooks, skills, GitHub Actions, or other AI-assisted development workflows.
 
-Covers agent/MCP inventory, credential and permission boundaries, recurring automation failure/recovery behavior, verification, and a concise operational handoff.
+### Start free
 
-### Free audit toolkit
+- **Browser audit — no install or signup:** https://ossabellator.github.io/claude-code-mcp-hardening/free-audit.html
+- **Hardening checklist:** https://ossabellator.github.io/claude-code-mcp-hardening/checklist.html
+- **Open-source CLI + GitHub Action:** https://github.com/OssaBellator/claude-code-mcp-hardening
+- **Stable Action:** `uses: OssaBellator/claude-code-mcp-hardening@v1`
 
-Dependency-free static scanner, operational inventory, Markdown report generator, synthetic example deliverable, and reusable workflow contract:
+The free tooling is intentionally bounded: it inventories common AI-agent/MCP/configuration surfaces and does not execute target repository code.
 
-https://github.com/OssaBellator/claude-mcp-workflow-audit
+### Fixed-scope paid options
 
-**Service:** https://ossabellator.github.io/claude-mcp-workflow-audit/  
-**Checkout:** https://buy.stripe.com/9B600d9Mocei2RV8c104801  
-**Paid-audit intake:** https://github.com/OssaBellator/claude-mcp-workflow-audit/issues/new?template=paid-audit.yml
+- **A$39** — read-only evidence-backed audit of one public GitHub repository
+- **A$79** — 60-day public-repository watch with baseline, day-30, and day-60 reports
+- **A$149** — hands-on audit + bounded hardening for one existing workspace
 
-Follow-on workflow or MCP implementation is quoted separately after the audit establishes scope.
+Overview: https://ossabellator.github.io/claude-code-mcp-hardening/
 
-Do not send passwords, API keys, private keys, private repository contents, customer data, or recovery phrases through GitHub issues.
+The public-repository products require no private-repository access. The hands-on service requests access only when implementation work requires it.
+
+Do not send passwords, API keys, private keys, recovery phrases, production customer data, or other secrets through checkout fields or GitHub issues.
