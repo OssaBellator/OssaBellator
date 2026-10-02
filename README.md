@@ -2,20 +2,22 @@
 
 Building practical tooling for bounded, recoverable AI-assisted development.
 
-## AI Agent Setup & Hardening
+## Claude Code & MCP Workflow Audit + Hardening
 
-I offer a fixed-scope **A$149 repository hardening service** for developers using coding agents, MCP servers, repository automation, or AI-assisted deployment workflows.
+Fixed-scope **A$149 operational audit + hardening** for developers and teams using Claude Code, MCP servers, skills, hooks, scheduled tasks, or AI-assisted repository workflows.
 
-It covers one primary repository and focuses on:
+Covers agent/MCP inventory, credential and permission boundaries, recurring automation failure/recovery behavior, verification, and a concise operational handoff.
 
-- credential and secret boundaries;
-- narrower MCP/tool authority;
-- recovery basics;
-- build/type/lint/test and smoke verification where available;
-- a concise handoff with remaining actions and limitations.
+### Free audit toolkit
 
-**Service details:** https://ossabellator.github.io/ai-agent-hardening/  
-**GitHub repository:** https://github.com/OssaBellator/ai-agent-hardening  
-**Checkout:** https://buy.stripe.com/9B600d9Mocei2RV8c104801
+Dependency-free static scanner, operational inventory, Markdown report generator, synthetic example deliverable, and reusable workflow contract:
 
-Please do not send passwords, API keys, private keys, or recovery phrases through GitHub issues.
+https://github.com/OssaBellator/claude-mcp-workflow-audit
+
+**Service:** https://ossabellator.github.io/claude-mcp-workflow-audit/  
+**Checkout:** https://buy.stripe.com/9B600d9Mocei2RV8c104801  
+**Paid-audit intake:** https://github.com/OssaBellator/claude-mcp-workflow-audit/issues/new?template=paid-audit.yml
+
+Follow-on workflow or MCP implementation is quoted separately after the audit establishes scope.
+
+Do not send passwords, API keys, private keys, private repository contents, customer data, or recovery phrases through GitHub issues.
