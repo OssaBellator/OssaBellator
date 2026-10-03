@@ -4,7 +4,7 @@ I build **AI automation systems that connect APIs, business tools, documents, an
 
 Typical work includes intake-to-report automation, CRM/API integrations, Claude Code and MCP tooling, browser/computer automation, workflow debugging, and production hardening. I focus on the parts that matter after the demo works: approvals, retries, duplicate prevention, verification, recovery, tests, and operator handoff.
 
-**For client-style examples, start here:** [Business automation delivery proof](./BUSINESS_AUTOMATION.md). For deeper engineering review, inspect the code, tests, workflows, architecture notes, and documented limitations below.
+**For client-style examples, start here:** [Business automation delivery proof](./BUSINESS_AUTOMATION.md). [Service scopes](./SERVICES.md) show the kinds of bounded projects I can take end to end. For deeper engineering review, inspect the code, tests, workflows, architecture notes, and documented limitations below.
 
 ## Selected work
 
