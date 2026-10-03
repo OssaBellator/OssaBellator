@@ -14,6 +14,8 @@ My public work is deliberately evidence-first: inspect the code, tests, workflow
 | **[Unified Project Manager](https://github.com/OssaBellator/Unified-Project-Manager)** | Local-first control plane across Node, Python, Rust, Go and .NET project managers with preview-first mutation, dependency evidence, SBOMs and fleet views. |
 | **[E2H](https://github.com/OssaBellator/E2H)** | Reproducible AI-agent evaluation infrastructure: deterministic replay, observable evidence, mutation-tested harnesses, provenance, snapshots and verifiable releases. |
 
+[**Detailed engineering evidence →**](./PORTFOLIO.md)
+
 ## Engineering strengths
 
 - **AI agents & MCP:** tool authority, permissions, credentials, retries, recovery, verification and operator handoff.
