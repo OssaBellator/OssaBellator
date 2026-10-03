@@ -33,6 +33,7 @@ Repository counts below describe the current `main` tree structure. A test-file 
 **Inspect.**
 
 - [Repository](https://github.com/OssaBellator/computer-use)
+- [Case study](https://github.com/OssaBellator/computer-use/blob/main/CASE_STUDY.md)
 - [Neutral environment contract](https://github.com/OssaBellator/computer-use/blob/main/src/computer/environmentAdapter.ts)
 - [Cross-adapter task runtime](https://github.com/OssaBellator/computer-use/blob/main/src/computer/computerTaskRuntime.ts)
 - [Architecture](https://github.com/OssaBellator/computer-use/blob/main/docs/computer-use-architecture.md)
@@ -54,6 +55,7 @@ Repository counts below describe the current `main` tree structure. A test-file 
 **Inspect.**
 
 - [Repository](https://github.com/OssaBellator/fileop)
+- [Case study](https://github.com/OssaBellator/fileop/blob/main/CASE_STUDY.md)
 - [Architecture](https://github.com/OssaBellator/fileop/blob/main/docs/architecture.md)
 - [Files execution boundary](https://github.com/OssaBellator/fileop/blob/main/docs/files-browser.md)
 - [NTFS synchronizer](https://github.com/OssaBellator/fileop/blob/main/src/FileOp.Windows/Ntfs/NtfsIndexSynchronizer.cs)
@@ -97,6 +99,7 @@ Repository counts below describe the current `main` tree structure. A test-file 
 **Inspect.**
 
 - [Repository](https://github.com/OssaBellator/E2H)
+- [Case study](https://github.com/OssaBellator/E2H/blob/main/CASE_STUDY.md)
 - [Workspace snapshots](https://github.com/OssaBellator/E2H/blob/main/src/e2h/workspace_snapshot.py)
 - [Runtime request planning](https://github.com/OssaBellator/E2H/blob/main/src/e2h/runtime_plan.py)
 - [Release integrity](https://github.com/OssaBellator/E2H/blob/main/docs/release-integrity.md)
