@@ -35,7 +35,7 @@ My public work is deliberately evidence-first: inspect the code, tests, workflow
 
 For Claude Code / MCP workflow audits, agent-tool integrations, TypeScript/Node.js automation, Windows automation, or reliability hardening:
 
-- **Upwork:** https://www.upwork.com/freelancers/~0170bfda3f618591d8
+- **Upwork:** https://www.upwork.com/freelancers/~01fa363b7b5fea3801
 - **Hardening tools & fixed-scope services:** https://ossabellator.github.io/claude-code-mcp-hardening/
 
 I prefer small, testable milestones and clear acceptance criteria over vague autonomy claims. Public repositories document their own limits; no project should be read as permission to perform consequential actions without the appropriate operator authority.
