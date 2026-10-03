@@ -4,6 +4,19 @@ This page is a technical review shortcut for the projects pinned on my GitHub pr
 
 Repository counts below describe the current `main` tree structure. A test-file count is evidence of test surface, not a claim that every test passes on every operating system or environment.
 
+## Client-style business automation proof
+
+These two executable synthetic references are intentionally shaped like small client engagements rather than framework demonstrations:
+
+- [Assessment to AI analysis to report delivery](https://github.com/OssaBellator/claude-mcp-workflow-audit/tree/main/examples/assessment-report): validates questionnaire/webhook input, applies editable deterministic rules, constrains AI recommendations to approved evidence, renders a personalized report, verifies delivery and prevents duplicate processing.
+- [Webhook to approval to CRM/email writes](https://github.com/OssaBellator/claude-mcp-workflow-audit/tree/main/examples/approved-write): reads current CRM state, produces an approval packet, executes bounded writes, verifies the CRM result and recovers from an email failure without duplicating the successful CRM side effect.
+
+**Verification.** Both examples are in the repository's normal `npm test` gate. The current GitHub Actions run passes on Node 20, 22 and 24.
+
+**Boundary.** These are synthetic portfolio artifacts, not representations of prior paid client deployments. Production adapters and credentials remain client-owned.
+
+---
+
 ## 1. Claude Code & MCP Workspace Hardening
 
 **Problem.** AI-assisted repositories accumulate MCP configuration, instructions, hooks, CI permissions and credential surfaces faster than teams can reason about them.
