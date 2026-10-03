@@ -1,57 +1,41 @@
 # OssaBellator
 
-Building bounded, recoverable AI-agent infrastructure — with an emphasis on **Claude Code / MCP hardening, computer-use safety, automation reliability, and verifiable side effects**.
+I build **bounded AI-agent systems, MCP/Claude Code workflows, Windows automation, and developer tooling** with explicit authority, recovery, verification, and failure handling.
 
-## Featured work
+My public work is deliberately evidence-first: inspect the code, tests, workflows, architecture notes, and limitations rather than taking broad capability claims on trust.
 
-| Project | What it demonstrates |
+## Selected work
+
+| Project | Engineering signal |
 | --- | --- |
-| **[claude-code-mcp-hardening](https://github.com/OssaBellator/claude-code-mcp-hardening)** | Practical repository hardening for Claude Code, Codex, Cursor, MCP servers, hooks, skills, and GitHub Actions. Includes a deterministic scanner, GitHub Action, Agent Skill, security checklist, and fixed-scope human review. |
-| **[computer-use](https://github.com/OssaBellator/computer-use)** | Reference architecture for bounded computer-use runtimes: generation-aware targets, approval boundaries, dispatch uncertainty, verification, checkpoints, browser/CDP interaction, and multi-adapter computer contracts. This work became a reference input for Minimal MCP. |
-| **[claude-mcp-workflow-audit](https://github.com/OssaBellator/claude-mcp-workflow-audit)** | Earlier workflow-audit toolkit covering MCP integrations, Agent Skills, scheduled automation, idempotency, partial-failure recovery, and operator handoff. |
+| **[Claude Code & MCP Hardening](https://github.com/OssaBellator/claude-code-mcp-hardening)** | Installable repository-hardening tooling for Claude Code, Codex, Cursor, MCP servers and GitHub Actions, with a read-only scanner, Action, Agent Skill, checklist and human-audit path. |
+| **[computer-use](https://github.com/OssaBellator/computer-use)** | Reference architecture for computer-use agents that separates dispatch from verification and preserves uncertainty across browser, desktop, filesystem, terminal and other adapters. |
+| **[FileOp](https://github.com/OssaBellator/fileop)** | Windows/NTFS engineering: persistent indexing, exact browsing, native identity checks, bounded destructive actions, recovery history and privilege boundaries. |
+| **[Unified Project Manager](https://github.com/OssaBellator/Unified-Project-Manager)** | Local-first control plane across Node, Python, Rust, Go and .NET project managers with preview-first mutation, dependency evidence, SBOMs and fleet views. |
+| **[E2H](https://github.com/OssaBellator/E2H)** | Reproducible AI-agent evaluation infrastructure: deterministic replay, observable evidence, mutation-tested harnesses, provenance, snapshots and verifiable releases. |
 
-## Other public engineering work
+## Engineering strengths
 
-| Project | Focus |
-| --- | --- |
-| **[E2H](https://github.com/OssaBellator/E2H)** | Evidence-to-harness infrastructure for reproducible AI-agent evaluation, deterministic replay, observable traces, and verifiable releases. |
-| **[UCOF](https://github.com/OssaBellator/UCOF)** | Rust research implementation of a bounded, self-describing, chunk-addressable container format with integrity, recovery, partial access, and fuzzing. |
-| **[Lumina PDF Studio](https://github.com/OssaBellator/Lumina-PDF-Studio)** | Local-first PDF workspace with source-preserving edits, document analysis, OCR options, and review-gated AI changes. |
-| **[No-Three-in-Line Research](https://github.com/OssaBellator/no-three-in-line-research)** | Computational mathematics notebook that separates proved results, conditional reductions, heuristics, refutations, and verification scripts. |
-| **[blockIR](https://github.com/OssaBellator/blockIR)** | Dependency-free Python IR toolkit with explicit CFG validation, analysis, canonicalisation, and conservative optimisation passes. |
-| **[Unified Project Manager](https://github.com/OssaBellator/Unified-Project-Manager)** | Local-first control plane across Node, Python, Rust, Go and .NET package/project managers with preview-first mutation and evidence. |
-| **[FileOp](https://github.com/OssaBellator/fileop)** | Windows/NTFS file and storage engineering with reusable indexing, exact browsing, recovery-aware mutations, and evidence-driven storage analysis. |
-| **[Frame](https://github.com/OssaBellator/office)** | Semantic local-first productivity workspace connecting documents, structured data, presentations, review provenance, and reversible history. |
+- **AI agents & MCP:** tool authority, permissions, credentials, retries, recovery, verification and operator handoff.
+- **Automation & computer use:** semantic-first interaction, target freshness, guarded side effects and conservative retry behavior.
+- **Windows/native engineering:** UI Automation, NTFS/filesystem identity, process boundaries, desktop QA and CI.
+- **Developer tooling:** TypeScript/Node.js, Python, Rust, APIs, package/project tooling, GitHub automation and reproducible workflows.
 
-## What I work on
+## More public engineering
 
-- **AI-agent & MCP architecture** — tool boundaries, permissions, credentials, retries, recovery, and verification.
-- **Claude Code / coding-agent workflows** — repository instructions, hooks, skills, CI authority, and bounded automation.
-- **Computer-use systems** — semantic-first interaction, target freshness, guarded native input, side-effect verification, and conservative retry behavior.
-- **TypeScript / Node.js automation** — APIs, workflow orchestration, developer tooling, and failure-safe integrations.
-- **QA & automation reliability** — testable acceptance criteria, Windows/CI automation boundaries, and evidence-driven handoff.
+[Frame](https://github.com/OssaBellator/office) ·
+[Media](https://github.com/OssaBellator/media) ·
+[Universal Agent Search](https://github.com/OssaBellator/search) ·
+[blockIR](https://github.com/OssaBellator/blockIR) ·
+[UCOF](https://github.com/OssaBellator/UCOF) ·
+[Lumina PDF Studio](https://github.com/OssaBellator/Lumina-PDF-Studio) ·
+[No-Three-in-Line Research](https://github.com/OssaBellator/no-three-in-line-research)
 
-## Start with the open-source tools
+## Work with me
 
-- **Free public-repo audit:** https://ossabellator.github.io/claude-code-mcp-hardening/free-audit.html
-- **Repository security checklist:** https://ossabellator.github.io/claude-code-mcp-hardening/ai-coding-agent-repository-security-checklist.html
-- **GitHub Action:** `uses: OssaBellator/claude-code-mcp-hardening@v1`
-- **Agent Skill:** `npx skills add OssaBellator/claude-code-mcp-hardening --skill auditing-ai-agent-repositories`
+For Claude Code / MCP workflow audits, agent-tool integrations, TypeScript/Node.js automation, Windows automation, or reliability hardening:
 
-## Fixed-scope help
+- **Upwork:** https://www.upwork.com/freelancers/~0170bfda3f618591d8
+- **Hardening tools & fixed-scope services:** https://ossabellator.github.io/claude-code-mcp-hardening/
 
-For teams that want a human review or implementation pass, I offer deliberately bounded engagements rather than open-ended “AI transformation” work:
-
-- **A$39 AUD** — human-reviewed hardening audit for one public GitHub repository
-- **A$79 AUD** — 60-day public-repository watch (baseline, day 30, day 60)
-- **A$149 AUD** — bounded hands-on audit + implementation/hardening for one workspace
-
-Details: https://ossabellator.github.io/claude-code-mcp-hardening/
-
-## Engineering stance
-
-I prefer systems that make authority explicit, preserve uncertainty instead of guessing, separate dispatch from verification, and leave a clear recovery path.
-
-The public repositories are designed around bounded evidence and reproducible behavior. They do **not** claim penetration-test coverage, vulnerability certification, or permission to perform consequential actions without the appropriate operator approval.
-
-Please do not send passwords, API keys, private keys, recovery phrases, production customer data, or other secrets through issues, checkout fields, or proposal messages.
+I prefer small, testable milestones and clear acceptance criteria over vague autonomy claims. Public repositories document their own limits; no project should be read as permission to perform consequential actions without the appropriate operator authority.
