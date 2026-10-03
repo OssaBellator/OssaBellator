@@ -18,6 +18,10 @@ Building bounded, recoverable AI-agent infrastructure — with an emphasis on **
 | **[UCOF](https://github.com/OssaBellator/UCOF)** | Rust research implementation of a bounded, self-describing, chunk-addressable container format with integrity, recovery, partial access, and fuzzing. |
 | **[Lumina PDF Studio](https://github.com/OssaBellator/Lumina-PDF-Studio)** | Local-first PDF workspace with source-preserving edits, document analysis, OCR options, and review-gated AI changes. |
 | **[No-Three-in-Line Research](https://github.com/OssaBellator/no-three-in-line-research)** | Computational mathematics notebook that separates proved results, conditional reductions, heuristics, refutations, and verification scripts. |
+| **[blockIR](https://github.com/OssaBellator/blockIR)** | Dependency-free Python IR toolkit with explicit CFG validation, analysis, canonicalisation, and conservative optimisation passes. |
+| **[Unified Project Manager](https://github.com/OssaBellator/Unified-Project-Manager)** | Local-first control plane across Node, Python, Rust, Go and .NET package/project managers with preview-first mutation and evidence. |
+| **[FileOp](https://github.com/OssaBellator/fileop)** | Windows/NTFS file and storage engineering with reusable indexing, exact browsing, recovery-aware mutations, and evidence-driven storage analysis. |
+| **[Frame](https://github.com/OssaBellator/office)** | Semantic local-first productivity workspace connecting documents, structured data, presentations, review provenance, and reversible history. |
 
 ## What I work on
 
