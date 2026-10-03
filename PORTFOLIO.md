@@ -18,7 +18,7 @@ Repository counts below describe the current `main` tree structure. A test-file 
 - [Regression test](https://github.com/OssaBellator/claude-code-mcp-hardening/blob/main/test-audit.mjs)
 - [Self-audit workflow](https://github.com/OssaBellator/claude-code-mcp-hardening/blob/main/.github/workflows/self-audit.yml)
 
-**Current evidence surface.** 42 tracked files, 2 test files and 2 GitHub workflow files on `main`.
+**Current evidence surface.** 43 tracked files, 2 test files and 2 GitHub workflow files on `main`.
 
 **Boundary.** Inventory findings are review signals, not penetration-test findings or vulnerability certification.
 
@@ -82,7 +82,7 @@ Repository counts below describe the current `main` tree structure. A test-file 
 - [Provider registry](https://github.com/OssaBellator/Unified-Project-Manager/blob/main/src/unified_project_manager/provider_registry.py)
 - [Native-security regression driver](https://github.com/OssaBellator/Unified-Project-Manager/blob/main/scripts/test-native-security.sh)
 
-**Current evidence surface.** 474 tracked files, 237 test files and 38 focused documents on `main`. Validation is intentionally local/script-driven rather than GitHub Actions.
+**Current evidence surface.** 475 tracked files, 237 test files and 38 focused documents on `main`. Validation is intentionally local/script-driven rather than GitHub Actions.
 
 **Boundary.** Receipt chains are tamper-evident but not externally authenticated. Conditional or ambiguous dependency evidence is retained as such instead of silently upgraded to certainty.
 
