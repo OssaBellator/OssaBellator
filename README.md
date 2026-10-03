@@ -10,6 +10,15 @@ Building bounded, recoverable AI-agent infrastructure — with an emphasis on **
 | **[computer-use](https://github.com/OssaBellator/computer-use)** | Reference architecture for bounded computer-use runtimes: generation-aware targets, approval boundaries, dispatch uncertainty, verification, checkpoints, browser/CDP interaction, and multi-adapter computer contracts. This work became a reference input for Minimal MCP. |
 | **[claude-mcp-workflow-audit](https://github.com/OssaBellator/claude-mcp-workflow-audit)** | Earlier workflow-audit toolkit covering MCP integrations, Agent Skills, scheduled automation, idempotency, partial-failure recovery, and operator handoff. |
 
+## Other public engineering work
+
+| Project | Focus |
+| --- | --- |
+| **[E2H](https://github.com/OssaBellator/E2H)** | Evidence-to-harness infrastructure for reproducible AI-agent evaluation, deterministic replay, observable traces, and verifiable releases. |
+| **[UCOF](https://github.com/OssaBellator/UCOF)** | Rust research implementation of a bounded, self-describing, chunk-addressable container format with integrity, recovery, partial access, and fuzzing. |
+| **[Lumina PDF Studio](https://github.com/OssaBellator/Lumina-PDF-Studio)** | Local-first PDF workspace with source-preserving edits, document analysis, OCR options, and review-gated AI changes. |
+| **[No-Three-in-Line Research](https://github.com/OssaBellator/no-three-in-line-research)** | Computational mathematics notebook that separates proved results, conditional reductions, heuristics, refutations, and verification scripts. |
+
 ## What I work on
 
 - **AI-agent & MCP architecture** — tool boundaries, permissions, credentials, retries, recovery, and verification.
