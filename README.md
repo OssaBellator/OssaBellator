@@ -16,6 +16,15 @@ My public work is deliberately evidence-first: inspect the code, tests, workflow
 
 [**Detailed engineering evidence →**](./PORTFOLIO.md)
 
+### Executable business-automation proof
+
+Two runnable synthetic client-work references show the same reliability approach applied to ordinary business automation:
+
+- **[Assessment to AI analysis to report delivery](https://github.com/OssaBellator/claude-mcp-workflow-audit/tree/main/examples/assessment-report)** — structured intake, editable rules, controlled AI evidence, personalized report generation, idempotency, delivery and verification.
+- **[Webhook to approval to CRM/email writes](https://github.com/OssaBellator/claude-mcp-workflow-audit/tree/main/examples/approved-write)** — state read, bounded AI classification, approval-gated writes, read-back verification and partial-failure recovery without duplicate side effects.
+
+Both run in the repository's CI on Node 20/22/24 and use no production credentials or customer data.
+
 ## Engineering strengths
 
 - **AI agents & MCP:** tool authority, permissions, credentials, retries, recovery, verification and operator handoff.
