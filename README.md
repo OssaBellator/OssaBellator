@@ -1,8 +1,10 @@
 # OssaBellator
 
-I build **bounded AI-agent systems, MCP/Claude Code workflows, Windows automation, and developer tooling** with explicit authority, recovery, verification, and failure handling.
+I build **AI automation systems that connect APIs, business tools, documents, and agent workflows into reliable end-to-end processes**.
 
-My public work is deliberately evidence-first: inspect the code, tests, workflows, architecture notes, and limitations rather than taking broad capability claims on trust.
+Typical work includes intake-to-report automation, CRM/API integrations, Claude Code and MCP tooling, browser/computer automation, workflow debugging, and production hardening. I focus on the parts that matter after the demo works: approvals, retries, duplicate prevention, verification, recovery, tests, and operator handoff.
+
+**For client-style examples, start here:** [Business automation delivery proof](./BUSINESS_AUTOMATION.md). For deeper engineering review, inspect the code, tests, workflows, architecture notes, and documented limitations below.
 
 ## Selected work
 
